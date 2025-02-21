@@ -13,8 +13,10 @@ resources:
       diskSize: 512
       functionName: fc2-hhh
       handler: string
-      memorySize: 512
+      memorySize: 128
       runtime: custom
+      handler: 
+      disSize: 512
       triggers:
         triggerName: httpTrigger
         triggerType: http
