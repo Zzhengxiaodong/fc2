@@ -9,7 +9,7 @@ services:
       service:
         name: serverless-devs-application
       function:
-        name: fc-6uym
+        name: fc2-6uym
         description: Initialize
         runtime: custom
         environmentVariables:
