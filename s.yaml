@@ -3,7 +3,7 @@ name: my-framework-app
 access: default
 resources:
   framework:
-    component: fc2
+    component: fc
     props:
       region: cn-shenzhen
       service:
