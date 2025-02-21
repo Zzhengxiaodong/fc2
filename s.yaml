@@ -7,17 +7,12 @@ resources:
     component: fc3
     props:
       region: cn-shenzhen
+      code: '/code/lib:/usr/local/lib:/opt/lib:/opt/php8.1/lib:/opt/php8.0/lib:/opt/php7.2/lib'
       cpu: 0.05
       description: test-fc2-aaa
       diskSize: 512
       functionName: fc2-hhh
       handler: string
-      logConfig:
-        enableInstanceMetrics: true
-        enableRequestMetrics: true
-        logBeginRule: None
-        logstore: string
-        project: string
       memorySize: 512
       runtime: custom
       triggers:
