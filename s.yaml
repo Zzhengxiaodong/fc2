@@ -4,7 +4,7 @@ access: default
 
 resources:
   fcDemo:
-    component: fc
+    component: fc3
     props:
       region: cn-shenzhen
       cpu: 0.05
