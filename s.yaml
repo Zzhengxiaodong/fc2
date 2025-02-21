@@ -1,7 +1,7 @@
 edition: 3.0.0
 name: my-framework-app
 access: default
-services:
+resources:
   framework:
     component: fc2
     props:
